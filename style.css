@@ -1,0 +1,174 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    gap: 10px;
+    margin: 0;
+}
+
+.header_box {
+    width: 850px;
+}
+
+.header_superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px
+}
+
+
+.header_inferior {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+#header_inferior_box {
+    padding: 8px;
+}
+
+#placeholder {
+    background-color: gray;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: gray;
+}
+
+.subtext {
+    color: black;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 5px;
+}
+
+#superior {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: black;
+}
+
+/* CONTEUDO */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa {
+    border: 1px solid darkblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#content_container {
+    display: flex;
+    gap: 48px;
+    width: 600px;
+}
+
+#centro {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 10;
+}
+
+#centro_text {
+    width: 600px;
+    padding: 36px;
+    margin: 0;
+}
+
+#author {
+    text-align: right;
+}
+
+#button_white_border {
+    border: 1ddddddpx solid white;
+}
+
+#inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+}
+
+#propaganda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 16px;
+    width: 600px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+#advisor > p {
+    width: 400px;
+    color: white;
+    margin: 0;
+}
+
+#advisor_title {
+    font-size: 24px;
+}
+
+#advisor_content {
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    gap: 10px;
+    margin: 0;
+}
